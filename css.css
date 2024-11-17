@@ -1,0 +1,43 @@
+body{
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+main{
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 1.0)
+}
+h1{
+  color: #555
+}
+label{
+  display: block;
+}
+input, select, textarea{
+width: 100%;
+padding: 5px;
+margin-bottom: 10px;
+border: 1px solid #aaa
+}
+input[type="radio"] {
+width: auto;
+margin-right: 2px
+}
+input[type="checkbox"]{
+  width: auto;
+  margin-right: 1px;
+}
+input[type="submit"]{
+  background-color: #4CAF50;
+  color: #eee;
+  padding: 5px 5px;
+  border: 3px solid #aaa;
+  border-radius: 20px;
+  cursor: pointer;
+}
+input[type="submit"]:{
+background-color: #3e8e41;
+}
